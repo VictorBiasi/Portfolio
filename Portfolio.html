@@ -8,10 +8,9 @@
 <body>
     <header id="inicio">
         <h1>Victor Eugenio Biasi Correa</h1>
-        <img src="imagem-perfil.jpg" alt="Imagem de perfil" />
     </header>
 
-    <p>Olá, meu nome é Victor. Sou estudante. Bem-vindo ao meu portfólio!</p>
+    <p>Olá, meu nome é Victor. Sou estudante de ADS. Bem-vindo ao meu portfólio!</p>
 
     <nav>
         <ul>
@@ -21,53 +20,226 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-
     <section id="sobre">
         <header>
             <h1>Sobre Mim</h1>
         </header>
 
-        <p>Eu sou o Victor, sou um entusiasta da área de progamação. Até então venho estudando Web Designer.</p>
-
+        <p>Me chamo Victor, sou estudante de ADS e iniciando nesse mundo comecei a aprender mais sobre CSS, JavaScript e um pouco de Pyton</p>
+        
+        <h2>Formação Complementar</h2>
+        <ul>
+            <li>Pacote Office Basico</li>
+            <li>Conhecimento de sistemas operacionais para microcomputadores e para mobile (Windows, macOS, Linux, Android e iOS)</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+        </ul>
     </section>
-
     <section id="projetos">
         <header>
             <h1>Meus Projetos</h1>
         </header>
 
-        <p>Ainda não tenho nenhum projeto mas estou estudando para encher essa seção</p>
+        <p>Até o momento nao tenho nenhum projeto concluido, mas estou trabalhando em alguns</p>
     </section>
-
     <section id="contato">
         <header>
             <h1>Contato</h1>
         </header>
 
-        <p>Se você deseja entrar em contato, preencha o formulário abaixo ou me encontre nas redes sociais.</p>
+        <p>Se você deseja entrar em contato, me encontre nas redes sociais.</p>
 
         <ul>
-            <li><a href="https://www.linkedin.com/in/seunome">LinkedIn</a></li>
-            <li><a href="https://www.github.com/seunome">GitHub</a></li>
             <li><a href="https://www.instagram.com/biazi_sz?igsh=MWp6Ym5sMzR3NXB5bQ==">Instagram</a></li>
         </ul>
-
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Seu Nome</p>
-    </footer>
 </body>
 </html>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header img {
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #525252;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#sobre {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#sobre h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+#projetos h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projetos ul {
+    list-style-type: none;
+}
+
+#projetos li {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projetos li h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#projetos a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projetos a:hover {
+    text-decoration: underline;
+}
+
+#contato {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contato h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contato li {
+    margin-bottom: 10px;
+}
+
+#contato li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+#contato li a:hover {
+    color: #ff6347;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #5b02ff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
